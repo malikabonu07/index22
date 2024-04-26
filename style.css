@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    height: 100vh;
+    gap: 10px;
+    grid-template-rows: 50% 50%;
+}
+.box1 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62c2fa83da780d418c1d3741/c727c95c-4c65-4aeb-b61f-a0ac79f9f5b7/_DSC5877.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.box2 {
+    background-image: url(https://i0.wp.com/www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2018/10/18/29017/201501073773294094_2-scaled.jpg?fit=2560%2C2133&ssl=1);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.box3 {
+    background-image: url(https://asset.slimmingworld.co.uk/content/media/8282/creamy-vanilla-ice-cream_sw_recipe.jpg?v1=JGXiore20qg9NNIj0tmc3XnMBRiFLeuPwnkMWX-ivUUfI-tIhWobeJ5f6LPDImW-W0uzKxkHzWwuvJuZ1Q4hAsnznlG-h3x18CRHAkeEr-m-meGUGinSVuSkzzV-bMfz&width=640&height=640);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.box4 {
+    background-image: url(https://www.daringgourmet.com/wp-content/uploads/2023/07/Cookies-and-Cream-Ice-Cream-Recipe-3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.box5 {
+    background-image: url(https://lakesicecream.com/wp-content/uploads/ELIC_121022-01149-web.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.box6 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62c2fa83da780d418c1d3741/c727c95c-4c65-4aeb-b61f-a0ac79f9f5b7/_DSC5877.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.div {
+    border: 6px solid white;
+    height: 100%;
+    cursor: grabbing;
+
+}
+.div:hover .block {
+    transform: scale(1);
+    background-color: white;
+}
+.block {
+    background-color: rgb(245, 232, 232 0.3);
+    height: 100%;
+    transform: scale(0);
+    transition: all 0.4s linear;
+}
+i {
+    position: relative;
+    left: 210px;
+    top: 120px;
+    font-size: 100px;
+}
